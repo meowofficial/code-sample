@@ -1,0 +1,1 @@
+include: package:mobile_app.core_lints/global_analysis_options.yaml

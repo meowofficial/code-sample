@@ -1,0 +1,33 @@
+name: mobile_app.home.collections.lexical_item_exploration
+description: mobile_app.home.collections.lexical_item_exploration
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # domain default extensions
+  built_collection: any
+  dartz: any
+  equatable: any
+  meta: any
+
+  # general
+  bloc: any
+  flutter_bloc: any
+  get_it: any
+  http: any
+
+  # local
+  mobile_app.core:
+    path: ../../../../../../core
+  mobile_app.home.collections.core:
+    path: ../../core
+
+dev_dependencies:
+  mobile_app.core_lints:
+    path: ../../../../../../core_lints
